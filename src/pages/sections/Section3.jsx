@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section3 = () => {
   return (
-    <div className='p-5 px-3 flex flex-col md:flex-row justify-center gap-4 md:gap-16 lg:40 items-center top-0 w-full z-20 bg-gray-200 lg:px-26'>
+    <div className='p-5 px-3 flex flex-col md:flex-row justify-center gap-4 md:gap-16  items-center top-0 w-full  bg-gray-200 lg:px-26'>
         {/* 1st text */}
         <div className='flex gap-2 items-center'>
             <span className='font-bold text-lg lg:text-4xl'>One Stop. <br /> Four <span className='text-primary'>Possibilities</span>.</span>
