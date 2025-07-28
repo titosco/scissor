@@ -19,7 +19,7 @@ const Navigation = () => {
         </div>
         {/* main button */}
         <div>
-            <ul className='hidden items-center justify-center text-xs md:flex md:text-lg md:gap-10 lg:text-lg'>
+            <ul className='hidden items-center justify-center text-xs md:flex md:gap-8 lg:gap-10 lg:text-lg'>
                 <Link href={""}><li className='menu_button text-primary hover:text-blue-900'>My URLs</li></Link>
                 <Link href={""}><li className='menu_button flex'>Features <ChevronDown /> </li></Link>
                 <Link href={""}><li className='menu_button'>Pricing</li></Link>
@@ -39,7 +39,7 @@ const Navigation = () => {
         {/* side bar menu */}
         <div className={`${openMenuBar ? "translate-x-0 flex": "translate-x-full "} gap-6 fixed top-0 right-0 h-full w-[350px] z-30 backdrop-blur shadow-md flex-col items-start justify-start pt-4 pl-8 transition-transform duration-500 ease-in-out md:hidden`}>
             <X onClick={handleClick} className='cursor-pointer hover:text-primary'/>
-            <ul className='grid items-center md:flex gap-6 text-xs md:text-lg md:gap-10 lg:text-lg'>
+            <ul className='grid items-center md:flex gap-6 text-xs md:gap-10 lg:text-lg'>
                 <Link href={""}><li className='menu_button text-primary hover:text-blue-900'>My URLs</li></Link>
                 <Link href={""}><li className='menu_button flex'>Features <ChevronDown /> </li></Link>
                 <Link href={""}><li className='menu_button'>Pricing</li></Link>
