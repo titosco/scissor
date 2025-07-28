@@ -17,6 +17,7 @@
   --popover-foreground: oklch(0.145 0 0);
   --primary: oklch(0.5607 0.240738 260.8935);
   --primary-foreground: oklch(0.985 0 0);
+  --card: oklch(0.3165 0.0456 247.19);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
@@ -140,4 +141,7 @@ body {
 
 .menu_button{
   @apply hover:text-primary font-medium text-sm cursor-pointer;
+}
+.card{
+  @apply bg-white overflow-hidden relative border border-primary text-start p-12 md:p-10 md:pt-2 md:pb-2 md:pr-2 rounded-lg items-center ;
 }
