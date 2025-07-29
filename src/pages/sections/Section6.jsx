@@ -42,7 +42,7 @@ const Section6 = () => {
                 </CardFooter>
                 <CardHeader>
                     <CardDescription>
-                    By clicking "Trim URL", i have agreed to the <a href="#" className="text-primary font-bold">Terms of Service, </a><a href="#" className="text-primary font-bold">Privacy Policy</a> and Use of Cookies.
+                    By clicking "TrimURL", i have agreed to the <a href="#" className="text-primary font-bold">Terms of Service, </a><a href="#" className="text-primary font-bold">Privacy Policy</a> and Use of Cookies.
                     </CardDescription>
             </CardHeader>
             </Card>
