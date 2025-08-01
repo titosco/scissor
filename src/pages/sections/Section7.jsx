@@ -27,6 +27,7 @@ const Section7 = () => {
             <li className='flex justify-between items-center gap-2 pb-6 font-normal text-xs sm:text-sm border-b border-gray-300'>What is a QR code and what can it do?<Plus className='justify-end' size={24} /></li>
             <li className='flex justify-between items-center gap-2 pb-6 font-normal text-xs sm:text-sm border-b border-gray-300'>Is there an API available for integrating the URL shortening service.<Plus className='justify-end' size={24} /></li>
         </ul>
+        {/* soemthing added */}
     </div>
   )
 }
